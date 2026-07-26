@@ -1,0 +1,39 @@
+{
+  "driver_id": "uc_intg_soundtouch",
+  "version": "1.0.0",
+  "min_core_api": "0.22.0",
+  "name": {
+    "en": "Bose SoundTouch"
+  },
+  "icon": "uc:speaker",
+  "description": {
+    "en": "Control Bose SoundTouch speakers from your Remote over the local network. Power, volume, mute, transport, source selection (AUX, Bluetooth), 6 presets, now-playing metadata with album art, and a full remote entity for activities. Real-time updates via SoundTouch's WebSocket notifications."
+  },
+  "developer": {
+    "name": "Meir Miyara",
+    "email": "meir.miyara@gmail.com",
+    "url": "https://github.com/mase1981"
+  },
+  "home_page": "https://github.com/mase1981/uc-intg-soundtouch",
+  "release_date": "2026-07-26",
+  "setup_data_schema": {
+    "title": {
+      "en": "Bose SoundTouch Setup"
+    },
+    "settings": [
+      {
+        "id": "info",
+        "label": {
+          "en": "Connect to your Bose SoundTouch speaker"
+        },
+        "field": {
+          "label": {
+            "value": {
+              "en": "On the next screen, enter the IP address of your Bose SoundTouch speaker. Its name, sources, and presets are discovered automatically. The speaker must be on the same network as your Remote."
+            }
+          }
+        }
+      }
+    ]
+  }
+}
